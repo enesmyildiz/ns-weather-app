@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather • Enes</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="header">
+      <div class="brand">
+        <div class="logo">⛅</div>
+        <div class="title">Enes Weather</div>
+      </div>
+      <div class="search">
+        <input id="city-input" type="text" placeholder="Search city (e.g., Istanbul)" />
+        <button id="search-btn" aria-label="Search">Search</button>
+      </div>
+    </header>
+
+    <main>
+      <section id="current" class="card current">
+        <div class="placeholder">Type a city to see the weather.</div>
+      </section>
+
+      <section class="card forecast">
+        <h2>Next 3 Days</h2>
+        <div id="forecast-grid" class="forecast-grid"></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <small>Built by Enes Murat Yıldız • Unique design & icons • Metric units (°C)</small>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
