@@ -22,7 +22,7 @@ A clean UI with **3‑day min/max** forecast and condition icons. Simple, fast, 
 ## 🚀 Quick Start
 1) Open `index.html` locally or deploy via GitHub Pages.  
 2) If using an API, check `BASE_URL` in `app.js` (keys‑free **Open‑Meteo** recommended).  
-3) Customize icons under `icons/*.svg`.<img width="1600" height="840" alt="hero" src="https://github.com/user-attachments/assets/6ee6b445-d33d-4189-9fea-bf0930b4b532" />
+3) Customize icons under `icons/*.svg`.
 
 
 ## 🗺️ Roadmap
